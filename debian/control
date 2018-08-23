@@ -1,7 +1,8 @@
 Source: libgd2
 Section: graphics
 Priority: optional
-Maintainer: GD team <pkg-gd-devel@lists.alioth.debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: GD team <pkg-gd-devel@lists.alioth.debian.org>
 Uploaders: Ondřej Surý <ondrej@debian.org>
 Build-Depends: autotools-dev,
 	       debhelper (>= 9),

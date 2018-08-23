@@ -5,3 +5,5 @@ disable-tests-gdimagegrayscale-as-it-breaks-on-32-bit.patch
 0005-Disable-failing-test-that-breaks-some-builds.patch
 0006-Disable-gdimagerotate-bug00067-because-it-FTBFS-on-i.patch
 tests-make-a-little-change-for-autopkgtest.patch
+CVE-2018-1000222.patch
+CVE-2018-5711.patch
