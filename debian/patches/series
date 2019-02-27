@@ -7,3 +7,5 @@ disable-tests-gdimagegrayscale-as-it-breaks-on-32-bit.patch
 tests-make-a-little-change-for-autopkgtest.patch
 CVE-2018-1000222.patch
 CVE-2018-5711.patch
+CVE-2019-6977.patch
+CVE-2019-6978.patch

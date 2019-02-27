@@ -1,3 +1,18 @@
+libgd2 (2.2.5-4ubuntu0.3) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: buffer overflow in gdImageColorMatch
+    - debian/patches/CVE-2019-6977.patch: use gdMaxColors in
+      src/gd_color_match.c.
+    - CVE-2019-6977
+  * SECURITY UPDATE: double-free in gdImage*Ptr() functions
+    - debian/patches/CVE-2019-6978.patch: properly handle failure in
+      src/gd_gif_out.c, src/gd_jpeg.c, src/gd_wbmp.c, add test to
+      tests/jpeg/CMakeLists.txt, tests/jpeg/Makemodule.am,
+      tests/jpeg/jpeg_ptr_double_free.c.
+    - CVE-2019-6978
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Wed, 27 Feb 2019 14:31:55 -0500
+
 libgd2 (2.2.5-4ubuntu0.2) bionic-security; urgency=medium
 
   * SECURITY UPDATE: Double free
